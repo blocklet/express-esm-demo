@@ -6,7 +6,7 @@ import Debug from 'debug';
 import http from 'http';
 import jade from 'jade';
 
-import app from '../app.js';
+import app from '../app.mjs';
 
 const debug = Debug('express-esm-demo:server');
 

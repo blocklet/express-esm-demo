@@ -1,6 +1,6 @@
 name: express-esm-demo
 version: 1.0.4
-main: ./bin/www.js
+main: ./bin/www.mjs
 files:
   - blocklet.md
   - README.md

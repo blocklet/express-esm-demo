@@ -2,8 +2,7 @@
   "name": "express-esm-demo",
   "version": "1.0.4",
   "private": true,
-  "type": "module",
-  "main": "./bin/www.js",
+  "main": "./bin/www.mjs",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
@@ -14,7 +13,7 @@
     "morgan": "~1.9.1"
   },
   "scripts": {
-    "start": "node ./bin/www.js",
+    "start": "node ./bin/www.mjs",
     "clean": "rm -rf .blocklet",
     "bundle": "npm run clean && blocklet bundle --zip --create-release",
     "deploy": "npm run bundle && blocklet deploy .blocklet/bundle",

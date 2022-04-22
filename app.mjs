@@ -5,8 +5,8 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import { dirname, filename } from 'dirname-filename-esm';
 
-import indexRouter from './routes/index.js';
-import usersRouter from './routes/users.js';
+import indexRouter from './routes/index.mjs';
+import usersRouter from './routes/users.mjs';
 
 const __dirname = dirname(import.meta);
 const __filename = filename(import.meta);
