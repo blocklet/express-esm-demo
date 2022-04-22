@@ -1,5 +1,5 @@
 {
-  "name": "express-demo",
+  "name": "express-esm-demo",
   "version": "1.0.4",
   "private": true,
   "type": "module",
@@ -7,6 +7,7 @@
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
+    "dirname-filename-esm": "^1.1.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",

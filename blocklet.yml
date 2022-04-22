@@ -9,7 +9,7 @@ keywords:
   - dapp
   - demo
   - express
-description: Blocklet from local express-demo
+description: Demo blocklet for express with ESM
 group: dapp
 title: Express ESM Demo
 author:

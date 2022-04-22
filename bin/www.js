@@ -6,9 +6,9 @@ import Debug from 'debug';
 import http from 'http';
 import jade from 'jade';
 
-import app from '../app';
+import app from '../app.js';
 
-const debug = require('debug')('express-demo:server');
+const debug = Debug('express-esm-demo:server');
 
 /**
  * Get port from environment and store in Express.
