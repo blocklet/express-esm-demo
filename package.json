@@ -1,0 +1,22 @@
+{
+  "name": "express-demo",
+  "version": "1.0.4",
+  "private": true,
+  "type": "module",
+  "main": "./bin/www.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "clean": "rm -rf .blocklet",
+    "bundle": "npm run clean && bn bundle --zip --create-release",
+    "deploy": "npm run bundle && bn deploy .blocklet/bundle",
+    "release": "npm run clean && npm run bundle"
+  }
+}

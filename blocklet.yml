@@ -1,0 +1,45 @@
+name: express-esm-demo
+version: 1.0.4
+main: ./bin/www.js
+files:
+  - blocklet.md
+  - README.md
+  - views
+keywords:
+  - dapp
+  - demo
+  - express
+description: Blocklet from local express-demo
+group: dapp
+title: Express ESM Demo
+author:
+  name: ArcBlock
+scripts:
+  dev: npm run start
+specVersion: 1.2.0
+did: z8iZztp3steqVtpxm6yXjS8YTp2eTePUKayKa
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: tcp
+environments: []
+screenshots: []
+timeout:
+  start: 10
+requirements:
+  abtnode: '>=1.1.0'
+  os: '*'
+  cpu: '*'
+payment:
+  price: []
+  share: []
+children: []
+capabilities:
+  clusterMode: false
